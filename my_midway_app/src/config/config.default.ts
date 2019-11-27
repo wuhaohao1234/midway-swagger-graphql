@@ -12,5 +12,18 @@ export default (appInfo: EggAppInfo) => {
   config.middleware = [
   ];
 
+  // add swaggerdoc
+  config.swaggerdoc = {
+    dirScanner: './app/controller',
+    apiInfo: {
+      title: 'egg-example-api',
+      description: 'example for swaggerdoc',
+      version: '1.0.0',
+    },
+    schemes: ['http'],
+    enable: true,
+    routerMap: true,
+  };
+
   return config;
 };
