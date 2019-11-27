@@ -1,0 +1,23 @@
+{
+  "name": "midway-swagger-graphql",
+  "version": "1.0.0",
+  "description": "midway结合swagger结合grahpQL demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/midway-swagger-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/midway-swagger-graphql/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/midway-swagger-graphql#readme",
+  "devDependencies": {
+    "midway-init": "^1.14.4"
+  }
+}
