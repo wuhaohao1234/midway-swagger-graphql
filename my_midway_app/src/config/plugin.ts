@@ -5,4 +5,4 @@
 export const swaggerdoc = {
   enable: true,
   package: 'egg-swagger-doc'
-}
+};
